@@ -1,0 +1,65 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: linear-gradient(-15deg,#027a8a,#ff3d03);
+}
+.btn {
+	font-family: 'Poopins', sans-serif ;
+	background: #00a8ff;
+	color: white;
+	padding: 10px ;
+	width: 100px;
+	font-size: 15px;
+	border: 1px solid transparent;
+	cursor:  pointer;
+   	margin: 5px;
+    transition: 0.3s all ease;
+    border-radius: 10px;
+}
+
+
+.btn:hover, btn:focus {
+	background: transparent;
+	border-color: #00a8ff;
+	color:  #00a8ff;
+}
+ .wrapper .title {
+ 	border-left: 5px solid #244555;
+ 	padding-left: 5px;
+ 	margin-bottom: 15px;
+ }
+
+.input-field {
+	display: block;
+	margin: 10px;
+	width: 100%;
+
+}
+
+
+.input-field .input {
+	font-family: 'Poppins' , sans-serif;
+	border: 1px solid #ccc;
+	background: transparent;
+	outline: none;
+	border-radius: 5px;
+	width: 100%;
+	padding: 10px;
+	font-size: 15px;
+	transition: 0,3s all ease;
+}
+
+
+.input-field .input:focus {
+	border-color: #00b7ff;
+}
+.input-field .input-label{
+	display: block ;
+	font-size: 15px;
+	margin-bottom: 2px;
+}
+
+
